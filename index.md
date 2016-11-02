@@ -85,3 +85,13 @@ RUN echo http://dl-4.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositorie
   pip install pymongo awscli && \
   mkdir /backup
 ```
+
+--
+
+# P.D. Contribuye con imagenes en Docker Hub
+
+```
+docker login
+docker build -t my-awesome-image:0.0.1 .
+docker push my-awesome-image:0.0.1
+```
