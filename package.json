@@ -23,6 +23,6 @@
   "homepage": "https://github.com/lgaticaq/slides-beerjs-18#readme",
   "devDependencies": {
     "cleaver": "0.8.7",
-    "opn-cli": "3.1.0"
+    "opn-cli": "4.1.0"
   }
 }
